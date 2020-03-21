@@ -1,0 +1,1 @@
+cat ./temp|awk -F '\t' '{print ">"$1"|"$2"|"$3"\n"$4}' >> ./a.txt
